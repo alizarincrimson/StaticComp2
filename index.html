@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ///// links css files -->
+  <link href="./normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="./styles.css" rel="stylesheet" type="text/css"/>
+  <!-- ///// links font awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <!-- ///// links google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- ///// meta tag for media queries -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Static Comp Two!</title>
+</head>
+
+<body>
+  
+  <aside class="left-side-nav">
+    <section class="user">
+      <img src="images/Tom-Almond.jpg#" alt="">
+      <h1 class="user-name">Tom Almond<i class="fas fa-angle-down"></i></h1>
+    </section>
+    <section class="main-area nav-section">
+      <h3 class="nav-titles">Main</h3>
+      <h2><i class="fas fa-home"></i>Home</h2>
+      <h2><i class="fas fa-briefcase"></i>Jobs</h2>
+      <h2><i class="fas fa-file-alt"></i>Resumes</h2>
+      <h2><i class="fas fa-tasks"></i>Tasks</h2>
+      <h2><i class="fas fa-calendar-alt"></i>Calendar</h2>
+    </section>
+    <section class="admin-area nav-section">
+      <h3 class="nav-titles">Admin</h3>
+      <h2><i class="fas fa-user-friends"></i>Users</h2>
+      <h2><i class="fas fa-map-marker-alt"></i>Locations</h2>
+      <h2><i class="fas fa-project-diagram"></i>Workflows</h2>
+      <h2><i class="fas fa-thumbtack"></i>Jobs Board</h2>
+      <h2><i class="fas fa-share-alt-square"></i>Social</h2>
+    </section>
+    <section class="category-area nav-section">
+      <h3 class="nav-titles">Categories</h3>
+      <h7 class="chkbx">
+        <input type="checkbox" class="chk-admin">
+        <span class="checkmark chk-admin"></span>
+        Administration
+      </h7>
+      <h7 class="chkbx">
+        <input type="checkbox" class="chk-design">
+        <span class="checkmark chk-design"></span>
+        Design
+      </h7>
+      <h7 class="chkbx">
+        <input type="checkbox" class="chk-exec">
+        <span class="checkmark chk-exec"></span>
+        Executive
+      </h7>
+      <h7 class="chkbx">
+        <input type="checkbox" class="chk-hr">
+        <span class="checkmark chk-hr"></span>
+        Human Resources
+      </h7>
+    </section>
+  </aside>
+
+  <nav class="page-header">
+    <section class="icon-left icon">
+      <i class="fas fa-caret-left"></i>
+      <i class="fas fa-bars"></i>
+    </section>
+    <section class="search-bar search">
+      <label for="search-icon" class="search">
+        <input class="search" id="search-icon" type="text" placeholder="&#xf002   Search for a job, task or resume">
+      </label>
+    </section>
+    <section class="icon-right icon">
+      <i class="fas fa-user-plus"></i>
+    </section>
+    <section class="icon-right icon">
+      <i class="fas fa-calendar-plus"></i>
+    </section>
+    <section class="icon-right icon">
+      <i class="fas fa-th"></i>
+    </section>
+  </nav>
+
+  <section class="content-header">
+    <article class="header">
+      <h2>Customer Service Representative</h2>
+      <div>
+        <h3 class="header-loc"><i class="fas fa-map-marker-alt"></i> Denver, CO -</h3>
+        <h3 class="preview-post">Preview this post</h3>
+      </div>
+    </article>
+    <article class="links-cust-svc">
+      <h4><i class="fas fa-circle"></i>Open</h4>
+      <i class="fas fa-bookmark"></i>
+      <i class="fas fa-pencil-alt"></i>
+      <i class="fas fa-trash-alt"></i>
+    </article>
+    <article class="links-data-content">
+      <ul>
+        <li class="active-link">SUMMARY</li>
+        <li>APPLICANTS</li>
+        <li>JOB BOARD</li>
+        <li>INTERVIEWS</li>
+        <li>ACTIVITY</li>
+        <li>BROADCAST</li>
+        <li>NOTIFICATIONS</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="content-data">
+    <article class="left-side-graph graph-box">
+      <div class="graph-box">
+        <div class="graph-chart">
+          <svg viewBox="0 0 36 36" class="chart one">
+            <path class="circle-bg"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"  />
+            <path class="circle"
+            stroke-dasharray="80, 20"
+            stroke-dashoffset="-50"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"  />
+            <text x="18" y="20.35" class="text-big">3,156</text>
+            <text x="18" y="25" class="text-small">Applicants</text>
+          </svg>
+        </div>
+        <div class="graph-chart">
+          <svg viewBox="0 0 36 36" class="chart two">
+            <path class="circle-bg"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"  />
+            <path class="circle"
+            stroke-dasharray="40, 60"
+            stroke-dashoffset="-50"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"   />
+            <text x="18" y="20.35" class="text-big">2,585</text>
+            <text x="18" y="25" class="text-small">Interviews</text>
+          </svg>
+        </div>
+        <div class="graph-chart">
+          <svg viewBox="0 0 36 36" class="chart blue">
+            <path class="circle-bg"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"   />
+            <path class="circle"
+            stroke-dasharray="25, 75"
+            stroke-dashoffset="-50"
+            d="M18 2.0845
+            a 15.9155 15.9155 0 0 1 0 31.831
+            a 15.9155 15.9155 0 0 1 0 -31.831"   />
+            <text x="18" y="20.35" class="text-big">1,845</text>
+            <text x="18" y="25" class="text-small">Forwards</text>
+          </svg>
+        </div>
+      </div>
+      <h6 class="btn-style">4567 total views</h6>
+    </article>
+    <article class="right-side-graph">
+      <img src="images/graph.png" alt="">
+      <h6 class="btn-style">Applicants per day</h6>
+    </article>
+  </section>
+
+
+  <section class="divide-line">
+    <i class="fas fa-chevron-up"></i>
+  </section>
+  
+
+  <section class="form-area">
+    <article>
+      <table>
+        <tr>
+          <th class="col"></th>
+          <th class="form-lt">JOB DESCRIPTION</th>
+          <th class="form-rt">
+            <div class="form-edit">
+              <i class="fas fa-pen"></i>EDIT
+            </div>
+          </th>
+          <th class="col"></th>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">POSITION TITLE</td>
+          <td>Customer Service Representative</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">LOCATION</td>
+          <td>Denver, CO</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">EMPLOYMENT TYPE</td>
+          <td>Full-time</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">EXPERIENCE</td>
+          <td>Mid-level</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">STATUS</td>
+          <td>Open</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">DESCRIPTION</td>
+          <td>
+            The Customer Service Representative will be responsible for customer service.
+          </td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">HIRING LEAD</td>
+          <td class="hire-lead"><img src="#" alt=""><img class="hire-lead-img" src="images/Victor-Agave.jpg" alt="">Victor Agave</td>
+          <td class="col"></td>
+        </tr>
+        <tr>
+          <td class="col"></td>
+          <td class="form-heading">APPROVED SALARY</td>
+          <td class="form-heading">$58,000</td>
+          <td class="col"></td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+
+  <section class="social-area">
+    <article class="link-facebook">
+      <img src="images/facebook.png" alt="fb logo">
+      <p>Post to Facebook</p>
+    </article> 
+    <article class="link-twitter">
+      <img src="images/twitter.png" alt="tw logo">
+      <p>Tweet this Job</p>
+    </article>
+    <article class="link-linkedin">
+      <img src="images/linkedin.png" alt="li logo">
+      <p>Post to Linkedin</p>
+    </article>
+    <article class="link-to-job">
+      <div class="social-space">
+        <img src="images/globe-icon.png" alt="">
+        <h5 class="social-space soc-header">Link to this Job</h5>
+      </div>
+      <h6 class="social-space">Grab a link to this job!</h6>
+      <div class="social-space">
+        <input class="soc-input" type="text" placeholder="www.zerodollarsalaryplusbenefitsbabe.com">
+        <button class="soc-btn" type="submit">Copy</button>
+      </div>
+    </article>
+    <article class="divider">
+    </article>
+    <article class="widget-btn">
+      <div class="social-space">
+        <img src="images/globe-icon.png" alt="">
+        <h5 class="soc-header">Use the Button Widget</h5>
+      </div>
+      <h6 class="social-space">
+        Embed this job on your site!
+      </h6>
+      <div class="social-space">
+        <input class="soc-input" type="text" placeholder='<script type="text/javascript" class="add-widget" id="resume"></script>'>
+        <button class="soc-btn" type="submit">Copy</button>
+      </div> 
+    </article>
+    <article class="divider">
+    </article>
+    <article class="upload-resumes">
+      <div class="social-space">
+        <img src="images/plane-icon.png" alt="">
+        <h5 class="soc-header">Upload Resumes by Email</h5>
+      </div>
+      <h6 class="social-space">
+        Upload multiple resumes to this job!
+      </h6>
+      <input class="social-space  soc-input" type="text" placeholder="Victor.Agave@aol.com">
+    </article>
+    <article class="divider">
+    </article>
+  </section>
+  
+</body>
+</html>
