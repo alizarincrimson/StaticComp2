@@ -109,54 +109,15 @@ body {
 .chkbx {
   display: block;
   position: relative;
-  padding-left: 25px;
+  padding-left: 5px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
-
-/*.chkbx .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}*/
-
-/*
-.chkbx input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}*/
-
-/*.chkbx input:checked ~ .checkmark:after {
-  display: block;
-}*/
-
-/*.checkmark {
-  position: absolute;
-  top: 1;
-  left: 0;
-  height: 12px;
-  width: 12px;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}*/
 
 
 
@@ -371,8 +332,8 @@ body {
   stroke: #25a6f7;
 }
 
-.chart.blue .circle {
-  stroke: #4CC790;
+.chart.three .circle {
+  stroke: #3CA8AF;
 }
 
 .text-big {
@@ -451,6 +412,7 @@ body {
 
 .form-lt {
   width: 30%;
+  text-align: left;
 }
 
 .form-rt {
@@ -590,15 +552,15 @@ body {
 }
 
 .soc-btn {
-  background-color: #67b8bf;
+  background-color: #3CA8AF;
   color: white;
+  font-size: 1rem;
   padding: 12px 10px 10px 10px;
 }
 
 .widget-btn, .upload-resumes, .link-to-job {
   width: 75%;
 }
-
 
 
 
